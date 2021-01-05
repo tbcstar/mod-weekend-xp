@@ -11,7 +11,7 @@ This module is a xp module that will allow the server owner/host to select how m
 
 ## How to use ingame
 
-Apply the module and Just log in on the weekend there you will see an announcement upon login to see if the module has been activated.
+应用模块并在周末登录，在登录时您将看到一个通知，以查看模块是否已被激活。
 
 ## Requirements
 
@@ -23,14 +23,14 @@ My new module requires:
 ## Installation
 
 ```
-1) Simply place the module under the `modules` directory of your AzerothCore source. 
-2) Import the SQL manually to the right Database (auth, world or characters) or with the `db_assembler.sh` (if `include.sh` provided).
-3) Re-run cmake and launch a clean build of AzerothCore.
+1) 只需将模块放在艾泽拉斯核心源代码的“modules”目录下。 
+2) 手动导入SQL到正确的数据库(auth、world或characters)或使用' db_assembler.sh”(如果“include.sh”提供)。
+3) 重新运行cmake并启动一个干净的艾泽拉斯核心版本。
 ```
 
 ## Edit module configuration (optional)
 
-If you need to change the module configuration, go to your server configuration folder (where your `worldserver` or `worldserver.exe` is), copy `mod-double-xp-weekend.conf.dist` to `mod-double-xp-weekend.conf` and edit that new file.
+如果您需要更改模块配置，去到你的服务器的配置文件夹（你worldserver或者worldserver.exe是），复制mod-double-xp-weekend.conf.dist到mod-double-xp-weekend.conf和编辑新的文件。
 
 
 ## Credits

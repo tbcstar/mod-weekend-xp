@@ -21,9 +21,9 @@ public:
                 return;
 
             if (now->tm_wday == 5 /*Friday*/ || now->tm_wday == 6 /*Satureday*/ || now->tm_wday == 0/*Sunday*/)
-                ChatHandler(player->GetSession()).PSendSysMessage("Its the Weekend! Your XP rate has been set to: %u", xpAmount);
+                ChatHandler(player->GetSession()).PSendSysMessage("周末愉快!你的经验值被设置为：%u", xpAmount);
             else
-                ChatHandler(player->GetSession()).PSendSysMessage("This server is running the |cff4CFF00Double Xp Weekend |rmodule.");
+                ChatHandler(player->GetSession()).PSendSysMessage("服务器已启用 |cff4CFF00周末双倍经验 |r模块。");
         }
 
         void OnGiveXP(Player* /*p*/, uint32& amount, Unit* /*victim*/) override
